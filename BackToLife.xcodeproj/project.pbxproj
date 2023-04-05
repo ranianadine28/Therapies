@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C0A04729DE1AD700F89497 /* BackToLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A04629DE1AD700F89497 /* BackToLifeApp.swift */; };
+		72C0A04929DE1AD700F89497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A04829DE1AD700F89497 /* ContentView.swift */; };
+		72C0A04B29DE1AD800F89497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0A04A29DE1AD800F89497 /* Assets.xcassets */; };
+		72C0A04E29DE1AD800F89497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C0A04D29DE1AD800F89497 /* Preview Assets.xcassets */; };
+		72C0A05029DE1AD800F89497 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A04F29DE1AD800F89497 /* Persistence.swift */; };
+		72C0A05329DE1AD800F89497 /* BackToLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A05129DE1AD800F89497 /* BackToLife.xcdatamodeld */; };
+		72C0A05D29DE1AD800F89497 /* BackToLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A05C29DE1AD800F89497 /* BackToLifeTests.swift */; };
+		72C0A06729DE1AD800F89497 /* BackToLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A06629DE1AD800F89497 /* BackToLifeUITests.swift */; };
+		72C0A06929DE1AD800F89497 /* BackToLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C0A06829DE1AD800F89497 /* BackToLifeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72C0A05929DE1AD800F89497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C0A03B29DE1AD700F89497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C0A04229DE1AD700F89497;
+			remoteInfo = BackToLife;
+		};
+		72C0A06329DE1AD800F89497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72C0A03B29DE1AD700F89497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72C0A04229DE1AD700F89497;
+			remoteInfo = BackToLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72C0A04329DE1AD700F89497 /* BackToLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackToLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C0A04629DE1AD700F89497 /* BackToLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToLifeApp.swift; sourceTree = "<group>"; };
+		72C0A04829DE1AD700F89497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72C0A04A29DE1AD800F89497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72C0A04D29DE1AD800F89497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72C0A04F29DE1AD800F89497 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		72C0A05229DE1AD800F89497 /* BackToLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BackToLife.xcdatamodel; sourceTree = "<group>"; };
+		72C0A05829DE1AD800F89497 /* BackToLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackToLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C0A05C29DE1AD800F89497 /* BackToLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToLifeTests.swift; sourceTree = "<group>"; };
+		72C0A06229DE1AD800F89497 /* BackToLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackToLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C0A06629DE1AD800F89497 /* BackToLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToLifeUITests.swift; sourceTree = "<group>"; };
+		72C0A06829DE1AD800F89497 /* BackToLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C0A04029DE1AD700F89497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A05529DE1AD800F89497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A05F29DE1AD800F89497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C0A03A29DE1AD700F89497 = {
+			isa = PBXGroup;
+			children = (
+				72C0A04529DE1AD700F89497 /* BackToLife */,
+				72C0A05B29DE1AD800F89497 /* BackToLifeTests */,
+				72C0A06529DE1AD800F89497 /* BackToLifeUITests */,
+				72C0A04429DE1AD700F89497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C0A04429DE1AD700F89497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C0A04329DE1AD700F89497 /* BackToLife.app */,
+				72C0A05829DE1AD800F89497 /* BackToLifeTests.xctest */,
+				72C0A06229DE1AD800F89497 /* BackToLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C0A04529DE1AD700F89497 /* BackToLife */ = {
+			isa = PBXGroup;
+			children = (
+				72C0A04629DE1AD700F89497 /* BackToLifeApp.swift */,
+				72C0A04829DE1AD700F89497 /* ContentView.swift */,
+				72C0A04A29DE1AD800F89497 /* Assets.xcassets */,
+				72C0A04F29DE1AD800F89497 /* Persistence.swift */,
+				72C0A05129DE1AD800F89497 /* BackToLife.xcdatamodeld */,
+				72C0A04C29DE1AD800F89497 /* Preview Content */,
+			);
+			path = BackToLife;
+			sourceTree = "<group>";
+		};
+		72C0A04C29DE1AD800F89497 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72C0A04D29DE1AD800F89497 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72C0A05B29DE1AD800F89497 /* BackToLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				72C0A05C29DE1AD800F89497 /* BackToLifeTests.swift */,
+			);
+			path = BackToLifeTests;
+			sourceTree = "<group>";
+		};
+		72C0A06529DE1AD800F89497 /* BackToLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72C0A06629DE1AD800F89497 /* BackToLifeUITests.swift */,
+				72C0A06829DE1AD800F89497 /* BackToLifeUITestsLaunchTests.swift */,
+			);
+			path = BackToLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C0A04229DE1AD700F89497 /* BackToLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C0A06C29DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLife" */;
+			buildPhases = (
+				72C0A03F29DE1AD700F89497 /* Sources */,
+				72C0A04029DE1AD700F89497 /* Frameworks */,
+				72C0A04129DE1AD700F89497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackToLife;
+			productName = BackToLife;
+			productReference = 72C0A04329DE1AD700F89497 /* BackToLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72C0A05729DE1AD800F89497 /* BackToLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C0A06F29DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLifeTests" */;
+			buildPhases = (
+				72C0A05429DE1AD800F89497 /* Sources */,
+				72C0A05529DE1AD800F89497 /* Frameworks */,
+				72C0A05629DE1AD800F89497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C0A05A29DE1AD800F89497 /* PBXTargetDependency */,
+			);
+			name = BackToLifeTests;
+			productName = BackToLifeTests;
+			productReference = 72C0A05829DE1AD800F89497 /* BackToLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72C0A06129DE1AD800F89497 /* BackToLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C0A07229DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLifeUITests" */;
+			buildPhases = (
+				72C0A05E29DE1AD800F89497 /* Sources */,
+				72C0A05F29DE1AD800F89497 /* Frameworks */,
+				72C0A06029DE1AD800F89497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72C0A06429DE1AD800F89497 /* PBXTargetDependency */,
+			);
+			name = BackToLifeUITests;
+			productName = BackToLifeUITests;
+			productReference = 72C0A06229DE1AD800F89497 /* BackToLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C0A03B29DE1AD700F89497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					72C0A04229DE1AD700F89497 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					72C0A05729DE1AD800F89497 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 72C0A04229DE1AD700F89497;
+					};
+					72C0A06129DE1AD800F89497 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 72C0A04229DE1AD700F89497;
+					};
+				};
+			};
+			buildConfigurationList = 72C0A03E29DE1AD700F89497 /* Build configuration list for PBXProject "BackToLife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72C0A03A29DE1AD700F89497;
+			productRefGroup = 72C0A04429DE1AD700F89497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C0A04229DE1AD700F89497 /* BackToLife */,
+				72C0A05729DE1AD800F89497 /* BackToLifeTests */,
+				72C0A06129DE1AD800F89497 /* BackToLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C0A04129DE1AD700F89497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0A04E29DE1AD800F89497 /* Preview Assets.xcassets in Resources */,
+				72C0A04B29DE1AD800F89497 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A05629DE1AD800F89497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A06029DE1AD800F89497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C0A03F29DE1AD700F89497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0A05029DE1AD800F89497 /* Persistence.swift in Sources */,
+				72C0A04929DE1AD700F89497 /* ContentView.swift in Sources */,
+				72C0A04729DE1AD700F89497 /* BackToLifeApp.swift in Sources */,
+				72C0A05329DE1AD800F89497 /* BackToLife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A05429DE1AD800F89497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0A05D29DE1AD800F89497 /* BackToLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C0A05E29DE1AD800F89497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C0A06929DE1AD800F89497 /* BackToLifeUITestsLaunchTests.swift in Sources */,
+				72C0A06729DE1AD800F89497 /* BackToLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72C0A05A29DE1AD800F89497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C0A04229DE1AD700F89497 /* BackToLife */;
+			targetProxy = 72C0A05929DE1AD800F89497 /* PBXContainerItemProxy */;
+		};
+		72C0A06429DE1AD800F89497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72C0A04229DE1AD700F89497 /* BackToLife */;
+			targetProxy = 72C0A06329DE1AD800F89497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72C0A06A29DE1AD800F89497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72C0A06B29DE1AD800F89497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C0A06D29DE1AD800F89497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BackToLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72C0A06E29DE1AD800F89497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BackToLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72C0A07029DE1AD800F89497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackToLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackToLife";
+			};
+			name = Debug;
+		};
+		72C0A07129DE1AD800F89497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackToLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackToLife";
+			};
+			name = Release;
+		};
+		72C0A07329DE1AD800F89497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackToLife;
+			};
+			name = Debug;
+		};
+		72C0A07429DE1AD800F89497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esprit.BackToLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackToLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C0A03E29DE1AD700F89497 /* Build configuration list for PBXProject "BackToLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0A06A29DE1AD800F89497 /* Debug */,
+				72C0A06B29DE1AD800F89497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C0A06C29DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0A06D29DE1AD800F89497 /* Debug */,
+				72C0A06E29DE1AD800F89497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C0A06F29DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0A07029DE1AD800F89497 /* Debug */,
+				72C0A07129DE1AD800F89497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C0A07229DE1AD800F89497 /* Build configuration list for PBXNativeTarget "BackToLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C0A07329DE1AD800F89497 /* Debug */,
+				72C0A07429DE1AD800F89497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72C0A05129DE1AD800F89497 /* BackToLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72C0A05229DE1AD800F89497 /* BackToLife.xcdatamodel */,
+			);
+			currentVersion = 72C0A05229DE1AD800F89497 /* BackToLife.xcdatamodel */;
+			path = BackToLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72C0A03B29DE1AD700F89497 /* Project object */;
+}
